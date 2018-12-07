@@ -1,2 +1,1 @@
-# LIST0
-Generic Header-Only Linked List in C
+l0.h
