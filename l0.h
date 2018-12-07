@@ -1,11 +1,10 @@
-/*   
+/*~~~   
 # LIST0 
 ## A Generic Linked-List Header-only Library for C 
 
 _By AShelly  (https://github.com/ashelly)_
 
 Notable Features
-
 
 - True generics in C.
  - `listof(AnyType)` works.
@@ -73,9 +72,7 @@ Iterate, Dereference the head to get the value.
      l0_size(my_lilst,&nitems); 
 
 
-##Implementation:   
-~~~
-*/
+~~~*/
 #ifndef L0__H_
 #define L0__H_
 
@@ -130,5 +127,3 @@ Iterate, Dereference the head to get the value.
 #endif
 
 #endif
-//~~~
-
