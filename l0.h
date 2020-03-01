@@ -86,7 +86,6 @@ Iterate, Dereference the head to get the value.
 
 /* Public Interface */
 #define l0_next(head) ((head) ? l0__nextv(head) : NULL)
-//#define l0_peek(head) (*(head))
 #define l0_peek(head) ((head) ? (*(head)) : NULL)
 
 #define l0_add(head, value) do {                  \
