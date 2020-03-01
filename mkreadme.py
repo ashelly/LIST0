@@ -4,10 +4,10 @@ echo = False
 f = open("l0.h")
 if True:
   for line in f:
-    print(line)
+#    print(line)
     if "~~~*/" in line:
       echo = False
-      print(line,echo)
+#      print(line,echo)
     if echo:
       md.write(line)
     if "/*~~~" in line:
